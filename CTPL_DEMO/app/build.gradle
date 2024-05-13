@@ -1,0 +1,40 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.ctaiot.ctprinter.ctpl_demo'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.ctaiot.ctprinter.ctpl_demo"
+        minSdk 25
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+//    implementation fileTree(include: ['*.aar', '*.jar'], exclude: [], dir: 'libs')
+
+    //    implementation files('libs/ctaiotCtpl1.0.0.jar')//CT 驰腾打印机 此库影响平板设备，暂发现 USB无响应 两种设备都有现 ，佳视为触控失灵
+    implementation files('libs/ctaiotCtpl1.1.2.jar')//CT 驰腾打印机 更新 bug 修复
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+
+}

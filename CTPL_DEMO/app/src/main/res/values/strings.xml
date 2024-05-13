@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CTPL_DEMO</string>
+
+    <string-array name="queryArray">
+        <item>查询硬件配置(合并)</item>
+        <item>查询打印机型号</item>
+        <item>查询支持压缩算法</item>
+        <item>查询固件信息(合并)</item>
+        <item>查询纸张类型</item>
+        <item>查询记忆打印状态</item>
+        <item>查询打印浓度</item>
+        <item>查询打印速度</item>
+        <item>查询自动关机(分钟)</item>
+        <item>查询展示参数(合并)</item>
+        <item>查询硬件版本号</item>
+        <item>查询当前电量</item>
+        <item>查询打印模式</item>
+    </string-array>
+
+    <string-array name="settingArray">
+        <item>设置打印模式</item>
+        <item>设置纸张类型</item>
+        <item>设置记忆打印</item>
+        <item>设置自动关机(分钟)</item>
+        <item>设置恢复出厂设置</item>
+        <item>设置标签的打印份数</item>
+        <item>设置打印速度</item>
+        <item>设置打印浓度</item>
+        <item>设置打印方向和镜像</item>
+    </string-array>
+
+    <string-array name="printArray">
+        <item>设置纸张的宽度及高度</item>
+        <item>绘制线条</item>
+        <item>绘制文字</item>
+        <item>绘制条码</item>
+        <item>绘制QR</item>
+        <item>绘制图片</item>
+        <item>绘制压缩图片</item>
+        <item>执行打印</item>
+    </string-array>
+</resources>

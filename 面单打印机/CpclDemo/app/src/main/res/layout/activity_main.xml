@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvState"
+        android:text="@string/not_connected"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="blueToothDevices"
+        android:text="@string/blue_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="usbDevices"
+        android:text="@string/usb_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="wifiDevices"
+        android:text="@string/ethernet_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="serialPortDevices"
+        android:text="@string/serial_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="disconnect"
+        android:text="@string/disconnect"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <CheckBox
+        android:id="@+id/swState"
+        android:checked="true"
+        android:text="@string/print_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="print"
+        android:text="@string/print_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="checkState"
+        android:text="@string/check_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   </LinearLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout 
+	    android:gravity="center_vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">   
+ 
+	    <ScrollView 
+	        android:scrollbarAlwaysDrawVerticalTrack="false"
+	        android:id="@+id/preview_dashboard_v" 
+	        android:background="#ffebebeb" 
+	        android:scrollbars="vertical" 
+	        android:fadingEdge="vertical"    
+	        android:layout_width="0.0dip"    
+	        android:layout_height="fill_parent" 
+	        android:layout_weight="1.0">
+	        	                
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">       
+                
+			    <TextView
+			        android:id="@+id/itemName3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_setting_codepage"	        
+			        android:textSize="20.0dip" />
+			                
+				<Spinner
+			        android:id="@+id/spnCodepage" 
+			        android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textSize="20.0dip"/>
+			   	    	    	                
+			    <TextView
+			        android:id="@+id/itemName4"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_setting_cut"	        
+			        android:textSize="20.0dip" />
+			                
+			    <Spinner
+			        android:id="@+id/spnCut" 
+			        android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textSize="20.0dip"/>
+			   		    
+			    <TextView
+			        android:id="@+id/itemName"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_setting_cashdrawer"	        
+			        android:textSize="20.0dip" />
+			               
+			    <Spinner
+			        android:id="@+id/spnCashdrawer" 
+			        android:layout_width="fill_parent" 
+					android:layout_height="wrap_content"
+					android:textSize="20.0dip" />
+			    
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_setting_buzzer"	        
+			        android:textSize="20.0dip" />
+			               
+			    <Spinner
+			        android:id="@+id/spnBuzzer" 
+			        android:layout_width="fill_parent" 
+					android:layout_height="wrap_content"
+					android:textSize="20.0dip" />
+			    
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_setting_feed"	        
+			        android:textSize="20.0dip" />
+			               
+			    <Spinner
+			        android:id="@+id/spnFeeds" 
+			        android:layout_width="fill_parent" 
+					android:layout_height="wrap_content"
+					android:textSize="20.0dip" />
+    
+    	    </LinearLayout>
+	    </ScrollView>
+	</LinearLayout>
+</LinearLayout>

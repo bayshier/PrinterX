@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">TscDemo</string>
+    <string name="blue_label">BlueTooth device</string>
+    <string name="usb_label">USB device</string>
+    <string name="ethernet_label">Ethernet device</string>
+    <string name="serial_device">Serial device</string>
+    <string name="scan_connect">Scan connection</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="print_state">Check status before printing</string>
+    <string name="print_example">Print case(58mm*70mm)</string>
+    <string name="print_pdf">Print PDF</string>
+    <string name="print_menu">Print Menu</string>
+    <string name="print_xml">Print XML</string>
+    <string name="check_state">Check status</string>
+    <string name="none_usb_device">No USB device</string>
+    <string name="paired">Paired</string>
+    <string name="unpaired">Unpaired</string>
+    <string name="bluetooth_is_not_enabled">Bluetooth is not turned on</string>
+    <string name="searching">searching...</string>
+    <string name="search_bt">Search device</string>
+    <string name="complete">Search complete</string>
+    <string name="permission">Authority</string>
+    <string name="no_permission">No positioning permission</string>
+    <string name="pdf_error">Failed to get PDF</string>
+    <string name="no_read">No read file permission</string>
+    <string name="camera">Scanning requires camera permission</string>
+    <string name="gps_permission">Android 8.0 system needs to turn on GPS positioning function to search for Bluetooth!\nPlease choose whether to enable</string>
+    <string name="camera_permission">Failed to obtain permission, unable to use scanning function</string>
+    <string name="tip">Tip</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="status_error">Status acquisition exception</string>
+    <string name="status_fail">Failed to obtain the printer status, please check whether the printer is out of paper or open the cover</string>
+    <string name="status_normal">Normal state</string>
+    <string name="status_feed">Status feed、printing</string>
+    <string name="status_out_of_paper">Out of paper status</string>
+    <string name="status_open">Status open</string>
+    <string name="status_overheated">State overheated</string>
+    <string name="conn_first">Please connect the printer first</string>
+    <string name="not_connected">not connected</string>
+    <string name="conn_fail">Connection failed</string>
+    <string name="conn_success">connection succeeded</string>
+    <string name="conning">connecting...</string>
+    <string name="checking">Querying...</string>
+    <string name="conned">connected</string>
+    <string name="print_success">Print successfully</string>
+    <string name="print_fail">Print failed</string>
+    <string name="send_success">Send successfully</string>
+    <string name="send_fail">Send failed</string>
+    <string name="str_baudrate">BaudRate</string>
+    <string name="str_serialport_path">Serial port address</string>
+    <string-array name="baudrate">
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>115200</item>
+    </string-array>
+    <string name="str_no_serialport">No serial device</string>
+    <string name="ip_is_illegal">ip is illegal</string>
+    <string name="Order">Order</string>
+    <string name="name">Name</string>
+    <string name="Quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="total_amount">Total amount:</string>
+    <string name="cashier">Cashier:</string>
+    <string name="gap">label gap：</string>
+    <string-array name="gap">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+	android:background="#ffffff"
+  	xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+		android:visibility="gone"
+		android:orientation="horizontal">
+		
+	    <TextView
+	        android:id="@+id/itemName3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="3.0dip"
+	        android:text="@string/activity_main_printer"
+            android:layout_marginLeft="8dp"
+            android:textColor="#0099D5"
+	        android:textSize="20.0dip" />
+	    
+	    <Spinner
+	        android:id="@+id/spn_printer_list" 
+	        android:layout_width="fill_parent" 
+			android:layout_height="40dp"
+            android:background="@drawable/selectbackground"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffffff"
+			android:textSize="20.0dip"/>
+	    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+		android:orientation="horizontal">
+	
+	    <Button
+	        android:id="@+id/btnBT"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickConnect"
+            android:background="@drawable/selectbackground"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffffff"
+			android:textSize="20sp"
+	        android:text="@string/activity_main_bt" />
+	                
+	    <Button
+	        android:id="@+id/btnWIFI"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickConnect"
+            android:background="@drawable/selectbackground"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffffff"
+			android:textSize="20sp"
+	        android:text="@string/activity_main_wifi" />
+	    
+	    <Button
+	        android:id="@+id/btnUSB"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickConnect"
+            android:background="@drawable/selectbackground"
+	        android:text="@string/activity_main_usb"
+            android:textColor="#ffffff"
+			android:textSize="20sp"
+	         />
+    </LinearLayout>
+            
+    <LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+		android:orientation="horizontal">
+
+	    <TextView
+	        android:id="@+id/txtTips"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="3.0dip"
+	        android:text="@string/activity_main_tips"	  
+	        android:layout_weight="1.0"
+            android:gravity="center"
+            android:textColor="#0099D5"
+	        android:textSize="16.0dip" />
+	            
+	    <Button
+	        android:id="@+id/btnClose"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="2.0"
+	        android:onClick="onClickClose"
+            android:background="@drawable/selectbackground"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffffff"
+			android:textSize="20sp"
+	        android:text="@string/activity_main_close" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+	
+	    <Button
+	        android:id="@+id/btnSetting"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickbtnSetting"
+	        android:text="@string/activity_main_setting"
+            android:background="@drawable/selectbackground"
+            android:textColor="#ffffff"
+			android:textSize="20sp"
+	        android:visibility="gone"/>
+
+	    <Button
+	        android:id="@+id/btnPrintTestPage"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickDo"
+            android:background="@drawable/selectbackground"
+            android:layout_margin="5dp"
+            android:textColor="#ffffff"
+			android:textSize="20sp"
+	        android:text="@string/activity_main_print_test_page" />	    
+    </LinearLayout>
+    <include layout="@layout/activity_esc_function"/>
+</LinearLayout>

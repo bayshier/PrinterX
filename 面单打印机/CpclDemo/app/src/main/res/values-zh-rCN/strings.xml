@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">面单Demo</string>
+    <string name="blue_label">蓝牙设备</string>
+    <string name="usb_label">USB设备</string>
+    <string name="ethernet_label">以太网设备</string>
+    <string name="serial_device">串口设备</string>
+    <string name="scan_connect">扫描连接</string>
+    <string name="disconnect">断开连接</string>
+    <string name="print_state">打印前查询状态</string>
+    <string name="print_example">打印案例</string>
+    <string name="vector_font">矢量字体</string>
+    <string name="cambodian">高棉语</string>
+    <string name="thai">泰文</string>
+    <string name="check_state">查询状态</string>
+    <string name="none_usb_device">无USB设备</string>
+    <string name="paired">已配对</string>
+    <string name="unpaired">未配对</string>
+    <string name="bluetooth_is_not_enabled">蓝牙未开启</string>
+    <string name="searching">搜索中...</string>
+    <string name="complete">搜索完成</string>
+    <string name="search_bt">搜索设备</string>
+    <string name="permission">权限</string>
+    <string name="no_permission">无定位权限</string>
+    <string name="pdf_error">获取PDF失败</string>
+    <string name="no_read">无读取文件权限</string>
+    <string name="camera">扫描需要摄像头权限</string>
+    <string name="camera_permission">获取权限失败，无法使用扫描功能</string>
+    <string name="gps_permission">安卓8.0系统搜索蓝牙需开启GPS定位功能！\n请选择是否开启</string>
+    <string name="tip">提示</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="status_error">状态获取异常</string>
+    <string name="status_fail">打印机状态获取失败，请检查打印机是否缺纸或开盖</string>
+    <string name="status_normal">状态正常</string>
+    <string name="status_feed">状态走纸、打印</string>
+    <string name="status_out_of_paper">状态缺纸</string>
+    <string name="status_open">状态开盖</string>
+    <string name="status_overheated">状态过热</string>
+    <string name="conn_first">请先连接打印机</string>
+    <string name="not_connected">未连接</string>
+    <string name="conn_fail">连接失败</string>
+    <string name="conn_success">连接成功</string>
+    <string name="conning">连接中...</string>
+    <string name="checking">查询中...</string>
+    <string name="conned">已连接</string>
+    <string name="print_success">打印成功</string>
+    <string name="print_fail">打印失败</string>
+    <string name="send_success">发送成功</string>
+    <string name="send_fail">发送失败</string>
+    <string name="str_baudrate">波特率</string>
+    <string name="str_serialport_path">串口地址</string>
+    <string-array name="baudrate">
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>115200</item>
+    </string-array>
+    <string name="str_no_serialport">无串口设备</string>
+    <string name="ip_is_illegal">IP不合法</string>
+</resources>
+

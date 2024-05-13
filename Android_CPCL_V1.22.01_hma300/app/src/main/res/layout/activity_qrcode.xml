@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+
+    <LinearLayout 
+	    android:gravity="center_vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">   
+ 
+	    <ScrollView 
+	        android:scrollbarAlwaysDrawVerticalTrack="false"
+	        android:id="@+id/preview_dashboard_v" 
+	        android:background="#ffebebeb" 
+	        android:scrollbars="vertical" 
+	        android:fadingEdge="vertical"    
+	        android:layout_width="0.0dip"    
+	        android:layout_height="fill_parent" 
+	        android:layout_weight="1.0">
+	        	                
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">    
+    
+			    <ImageView
+			        android:id="@+id/logoImageView"
+			        android:layout_marginTop="2.0dip"
+			        android:layout_width="100dp"
+			        android:layout_height="100dp"
+			        android:layout_gravity="center"
+					android:visibility="gone"
+			        android:src="@drawable/qrcode" />
+			
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_qrcode_data"
+			        android:textSize="20.0dip" />
+			    <EditText
+			        android:id="@+id/txtQRCodeData"
+			        android:layout_width="fill_parent"        
+			        android:layout_height="80sp"
+			        android:inputType="textMultiLine"
+			        android:background="@drawable/my_edittext"
+			        android:textColor="#000000"
+			        android:textSize="20sp"
+			        android:textStyle="bold" />
+				<TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_1dbarcodes_start_cd"	        
+			        android:textSize="20.0dip" />	
+			        <LinearLayout 
+			            android:layout_width="match_parent"
+			            android:layout_height="wrap_content"
+			            android:orientation="horizontal"
+			            >
+				<EditText
+			        android:id="@+id/txtqrcode_x"
+			        android:layout_width="50dp"	       
+			        android:layout_height="wrap_content"
+			        android:textColor="#000000"
+			        android:textSize="20sp"
+			        android:layout_weight="1"
+			        android:text="0"
+			        android:maxLines="1"/>
+				<EditText
+			        android:id="@+id/txtqrcode_y"
+			        android:layout_width="50dp"	       
+			        android:layout_height="wrap_content"
+			        android:textColor="#000000"
+			        android:textSize="20sp"
+			        android:layout_weight="1"
+			        android:text="0"
+			        android:maxLines="1"/>
+				</LinearLayout>
+			    
+			
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_qrcode_size"
+			        android:textSize="20.0dip" />
+			    <Spinner
+			        android:id="@+id/spnQRCodeSize"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20.0dip" />
+			
+			     <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_qrcode_model"
+			        android:textSize="20.0dip" />
+			    <Spinner
+			        android:id="@+id/spnQRCodeModel"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20.0dip" /> 
+			
+			    <!-- <TextView
+			        android:id="@+id/itemName3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_qrcode_level"
+			        android:textSize="20.0dip" />
+			    <Spinner
+			        android:id="@+id/spnQRCodeLevel"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20.0dip" /> -->
+				<TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_1dbarcodes_rotation"	        
+			        android:textSize="20.0dip" />	
+				<Spinner
+			        android:id="@+id/spnqrcode_rotation" 
+			        android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" 
+					android:textSize="20.0dip"/>
+			    <Button
+			        android:id="@+id/btnPrint"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:onClick="onClickPrint"
+			        android:text="@string/activity_global_print" />       
+		    </LinearLayout>
+	    </ScrollView>
+	</LinearLayout>
+</LinearLayout>

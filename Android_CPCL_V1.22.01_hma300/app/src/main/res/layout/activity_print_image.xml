@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+            
+    <LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+	    <Button android:id="@+id/btnPhoto"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickPhoto"
+	        android:text="@string/activity_image_photo"/>	
+	            
+	    <Button android:id="@+id/btnGallery"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickGallery"
+	        android:text="@string/activity_image_gallery"/>
+    </LinearLayout>
+</LinearLayout>

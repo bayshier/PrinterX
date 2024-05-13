@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CPCL</string>
+    <string name="app_title">CPCL V1.05.01Test01</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="logo_show_time">1500</string>
+    <string name="activity_test_page">SELF_TEST</string>
+    <string name="activity_test_line">LINE</string>
+    <string name="activity_test_box">BOX</string>
+    <string name="activity_global_warning">Warning</string>
+    <string name="activity_global_yes">Yes</string>
+    <string name="activity_global_no">No</string>
+    <string name="activity_global_print">Print</string>
+    <string name="activity_global_align">Align:</string>
+    <string name="activity_global_left_align">Left</string>
+    <string name="activity_global_center_align">Center</string>
+    <string name="activity_global_right_align">Right</string>
+    <string name="activity_global_cmd_send">Printer code is sended.</string>
+
+    <string name="activity_Statues_ready">Ready</string>
+    <string name="activity_Statues_nopage">No pager</string>
+    <string name="activity_Statues_open">Open the lid</string>
+    <string name="activity_Statues_error">Error</string>
+
+    <string name="activity_main_printer">Printer List:</string>
+    <string name="activity_main_bt">Bluetooth</string>
+    <string name="activity_main_wifi">WIFI</string>
+    <string name="activity_main_usb">USB</string>
+    <string name="activity_main_setting">Setting</string>
+    <string name="activity_main_print_test_page">Print Test Page</string>
+    <string name="activity_main_tips">Please connect to printer!</string>
+    <string name="activity_main_scan_error">Scan Error!</string>
+    <string name="activity_main_scan_success">Scan Success!</string>
+    <string name="activity_main_connecterr">Connect Error!</string>
+    <string name="activity_main_connected">Connect Success!</string>
+    <string name="activity_main_connect_usb_printer">Please connect usb printer.</string>
+    <string name="activity_main_close">Close</string>
+    <string name="activity_main_originalsize">OriginalSize:</string>
+    <string name="activity_main_minifront">MiniFront:</string>
+    <string name="activity_main_heightsize">HeightSize:</string>
+    <string name="activity_main_widthsize">WidthSize:</string>
+    <string name="activity_main_heightwidthsize">HeightWidthSize:</string>
+    <string name="activity_main_bold">Blod:</string>
+    <string name="activity_main_underline">Underline:</string>
+    <string name="activity_main_data_error">Failed to get</string>
+    <string-array name="activity_main_sample_2inch_receipt">
+        <item>"Sales Order"</item>
+        <item>"2013-08-20"</item>
+        <item>"Warehouse: Warehouse A on the second floor"</item>
+        <item>"Dealer: Xiao Zhang"</item>
+        <item>"--------------------------------"</item>
+        <item>"name                      amount"</item>
+        <item>"--------------------------------"</item>
+        <item>"MP-II                    777.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"MP-III                   888.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"LP58                     999.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"Total Amount                 2664.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"Operator: Administrator"</item>
+        <item>"time：2013-08-20 09:30:50"</item>
+    </string-array>
+
+    <string name="activity_esc_function_btngetprinterstatus">Get Printer Status</string>
+    <string name="activity_esc_function_btnopencashdrawer">Paper Type</string>
+    <string name="activity_esc_function_print_type">Product Type</string>
+    <string name="activity_esc_function_btnsamplereceipt">Sample Receipt</string>
+    <string name="activity_esc_function_btn1dbarcodes">1D Barcodes</string>
+    <string name="activity_esc_function_btnqrcode">QR Code</string>
+    <string name="activity_esc_function_btnpdf417">PDF417</string>
+    <string name="activity_esc_function_btncut">Cut</string>
+    <string name="activity_esc_function_btntextformatting">Text Formatting</string>
+    <string name="activity_esc_function_btnprintimagefile">Print Image File</string>
+    <string name="activity_esc_function_btnprintprnfile">Printer Upgrade</string>
+    <string name="activity_esc_function_btnpagemode">Page Mode</string>
+    <string name="activity_esc_function_btnexpress">Express</string>
+    <string name="activity_esc_function_btnimagemanage">Print Background</string>
+    <string name="activity_esc_function_btngetremainingpower">Print SN</string>
+    <string name="activity_esc_function_btnReverseFeedNLine">ReverseFeed</string>
+    <string-array name="activity_main_papertype">
+        <item>Receipt paper</item>
+        <item>Label paper</item>
+        <item>3 Inch Left Top BM paper</item>
+        <item>3 Inch Left BLE BM paper</item>
+        <item>Right Top BM paper</item>
+        <item>Right BLE BM paper</item>
+        <item>Central Top BM paper</item>
+        <item>Central BLE BM paper</item>
+        <item>2 Inch Left Top BM paper</item>
+        <item>2 Inch Left BLE BM paper</item>
+    </string-array>
+    <string-array name="activity_main_papertype_4inch">
+        <item >Receipt paper</item>
+        <item >Label paper</item>
+        <item >2 Inch BM paper</item>
+        <item >3 Inch BM paper</item>
+        <item >4 Inch BM paper</item>
+    </string-array>
+    <string-array name="activity_main_paper_size">
+        <item>3 Inch</item>
+        <item>4 Inch</item>
+    </string-array>
+    <string-array name="activity_main_express">
+        <item>ST express</item>
+        <item>ZT express</item>
+        <item>TT express</item>
+    </string-array>
+    <string name="activity_devicelist_title_paired_devices">Paired devices</string>
+    <string name="activity_devicelist_title_other_devices">Other devices</string>
+    <string name="activity_devicelist_button_scan">Scan bluetooth</string>
+    <string name="activity_devicelist_none_paired">None paired Devices</string>
+    <string name="activity_devicelist_scanning">Scanning......</string>
+    <string name="activity_devicelist_select_device"> Devices list</string>
+    <string name="activity_devicelist_connect">connect</string>
+    <string name="activity_devicelist_get_device_err">Get Device Error:</string>
+    <string name="activity_devicelist_bond_error">"Bond error!Please bond bluetooth printer in settings panel first."</string>
+
+    <string name="activity_wifi_lblipaddress">IP Address:</string>
+    <string name="activity_wifi_lblport">Port:</string>
+    <string name="activity_wifi_btnconnect">Connect</string>
+    <string name="activity_wifi_btncancel">Cancel</string>
+    <string name="activity_wifi_ip">192.168.0.33</string>
+    <string name="activity_wifi_port">9100</string>
+    <string name="activity_wifi_noIP">Please import IP address</string>
+
+    <string name="activity_setting_codepage">Codepage Setting:</string>
+    <string name="activity_setting_cut">Cut Setting:</string>
+    <string name="activity_setting_cashdrawer">Casedrawer Setting:</string>
+    <string name="activity_setting_buzzer">Buzzer Setting:</string>
+    <string name="activity_setting_feed">After print feeds:</string>
+
+    <string name="activity_status_btnrefresh">Refresh</string>
+    <string name="activity_status_error">Get printer status error.</string>
+    <string name="activity_status_transmit_status_no_paper">No paper.</string>
+    <string name="activity_status_transmit_status_has_paper">Has paper.</string>
+    <string name="activity_status_real_time_status_paper_near_end">Paper is near end.</string>
+    <string name="activity_status_real_time_status_paper_adquate">Adquate paper.</string>
+    <string name="activity_status_real_time_status_cover_is_open">Cover is open.</string>
+    <string name="activity_status_real_time_status_pressed_feed_button">Pressed Feed Button.</string>
+    <string name="activity_status_real_time_status_stopped_no_paper">Stopped because no paper.</string>
+    <string name="activity_status_real_time_status_has_error">Printer has error.</string>
+    <string name="activity_status_real_time_status_cutter_error">Cutter error.</string>
+    <string name="activity_status_real_time_status_unrecoverable_error">Unrecoverable error occurred.</string>
+    <string name="activity_status_real_time_status_auto_recoverable_error">Automatically recoverable error.</string>
+
+    <string name="activity_1dbarcodes_btnhelp">Help</string>
+    <string name="activity_1dbarcodes_type">Barcode Type:</string>
+    <string name="activity_1dbarcodes_data">Barcode Data:</string>
+    <string name="activity_1dbarcodes_start_cd">The starting coordinates:</string>
+    <string name="activity_1dbarcodes_readable">human readable:</string>
+    <string name="activity_1dbarcodes_rotation">rotation:</string>
+    <string name="activity_1dbarcodes_narrow">narrow:</string>
+    <string name="activity_1dbarcodes_height">Barcode Height:</string>
+    <string name="activity_1dbarcodes_width">Wide(Dots):</string>
+    <string name="activity_1dbarcodes_no_data">Please import  data!</string>
+    <string name="activity_1dbarcodes_data_error">import barcode data error！</string>
+    <string name="activity_1dbarcodes_UPC_A">075678164125</string>
+    <string name="activity_1dbarcodes_UPC_E">01227000009</string>
+    <string name="activity_1dbarcodes_JAN13">6901028075831</string>
+    <string name="activity_1dbarcodes_JAN8">04210009</string>
+    <string name="activity_1dbarcodes_ITF">123456789012</string>
+    <string name="activity_1dbarcodes_CODABAR">A40156B</string>
+    <string name="activity_1dbarcodes_CODE93">TEST93</string>
+    <string name="activity_1dbarcodes_CODE39">123456789</string>
+    <string name="activity_1dbarcodes_CODE128">{BS/N:{C\014\042\070\116A</string>
+    <string name="activity_1dbarcodes_HELP">code128 can print Numbers and letters\nUPC-A、UPC-E can print Number，The number of bits 11-12\nEAN can print Number，The number of bits 12-13\ncode39和code93 can print Number\nCodabar starts and ends with A, B, C, and D, with only 5 digits in between</string>
+    <string name="activity_1dbarcodes_sure">Sure</string>
+    <string-array name="activity_1dbarcodes_barcode_type">
+        <item>"Code128"</item>
+        <item>"UPC-A"</item>
+        <item>"UPC-E"</item>
+        <item>"EAN"</item>
+        <item>"Code39"</item>
+        <item>"Code93"</item>
+        <item>"Codabar"</item>
+    </string-array>
+    <!-- 保存到共享数据的值：0，1，2，3 -->
+    <string-array name="activity_1dbarcodes_hri_position">
+        <item>"human readable"</item>
+        <item>"not readable"</item>
+    </string-array>
+    <string-array name="activity_1dbarcodes_hri_rotation">
+        <item>"0"</item>
+        <item>"90"</item>
+    </string-array>
+    <string-array name="activity_1dbarcodes_rotation">
+        <item>"Horizontal"</item>
+        <item>"vertical"</item>
+    </string-array>
+    <string-array name="activity_1dbarcodes_width">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+    </string-array>
+    <string name="activity_pdf417_dataColumns">dataColumns:</string>
+    <string name="activity_pdf417_dataRows">dataRows:</string>
+    <string name="activity_pdf417_moduleWidth">moduleWidth:</string>
+    <string name="activity_pdf417_rowHeight">rowHeight:</string>
+    <string name="activity_pdf417_errorMode">errorMode:</string>
+    <string name="activity_pdf417_errorLevel">errorLevel:</string>
+    <string name="activity_pdf417_options">options:</string>
+    <string name="activity_pdf417_standardMode">standardMode:</string>
+    <string name="activity_pdf417_compressionMode">compressionMode:</string>
+    <string name="activity_pdf417_hierarchicalMode">levelMode:</string>
+    <string name="activity_pdf417_RatioMode">RatioMode:</string>
+    <string name="activity_pdf417_no_data">Please import PDF417 data!</string>
+    <string name="activity_pdf417_no_dataColumns">Please import PDF417 Columns!</string>
+    <string name="activity_pdf417_no_dataRows">Please import PDF417 Rows!</string>
+
+    <string name="activity_qrcode_data">Data:</string>
+    <string name="activity_qrcode_size">Cell Size:</string>
+    <string name="activity_qrcode_model">Model:</string>
+    <string name="activity_qrcode_level">Correction Level:</string>
+    <string name="activity_qrcode_no_data">Please import QRCode data!</string>
+
+    <string name="activity_cut_fullcut">Full Cut</string>
+    <string name="activity_cut_partialcut">Partial Cut</string>
+    <string name="activity_cut_fullcutwithfeed">Full Cut With Feed</string>
+    <string name="activity_cut_partialcutwithfeed">Partial Cut With Feed</string>
+
+    <string name="activity_text_format_chkdoublewidth">Double Width</string>
+    <string name="activity_text_format_chkdoubleheight">Double Height</string>
+    <string name="activity_text_format_chkunderline">Underline</string>
+    <string name="activity_text_format_chkbold">Bold</string>
+    <string name="activity_text_format_chkminifont">Mini Font</string>
+    <string name="activity_text_format_chkturnwhite">Turn White</string>
+    <string name="activity_text_format_heighmultiple">Heigh Multiple</string>
+    <string name="activity_text_format_widthmultiple">Width Multiple</string>
+    <string name="activity_text_format_leftmargin">Left Margin(Max 255):</string>
+    <string name="activity_text_format_sampletext">Send this sample text to printer.</string>
+    <string name="activity_text_format_font">font:</string>
+    <string name="activity_text_format_x_multiplication">size:</string>
+    <string name="activity_text_format_y_multiplication">y-multiplication:</string>
+    <string name="activity_text_format_papeheight">Label length:</string>
+    <string name="activity_text_format_unit">Unit:mm</string>
+    <string name="activity_text_format_no_pape">Please enter the correct label length</string>
+    <string name="activity_text_format_font_setmag">Font magnification</string>
+    <string name="activity_text_format_background">Background blackness</string>
+    <string-array name="activity_text_format_multiple">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+    </string-array>
+
+    <string name="activity_cashdrawer_open1">Open #1 Cashdrawer</string>
+    <string name="activity_cashdrawer_open2">Open #2 Cashdrawer</string>
+    <string name="activity_cashdrawer_open12">Open #1 #2 Cashdrawer</string>
+
+    <string name="activity_image_photo">Taking Pictures</string>
+    <string name="activity_image_gallery">Photo Gallery</string>
+
+    <string name="activity_page_mode_left_margin">Left Margin(0≤n≤*)</string>
+    <string name="activity_page_mode_top_margin">Top Margin(0≤n≤*)</string>
+    <string name="activity_page_mode_width">Width(1≤n≤*)</string>
+    <string name="activity_page_mode_height">Height(1≤n≤*)</string>
+    <string name="activity_page_mode_hposition">H Position</string>
+    <string name="activity_page_mode_vposition">V Position</string>
+    <string name="activity_page_mode_print_direction">Print Direction</string>
+    <string name="activity_page_mode_invalid_parameter">Invalid Parameter!</string>
+    <string-array name="activity_page_mode_print_direction_list">
+        <item>"Left to right"</item>
+        <item>"Bottom to top"</item>
+        <item>"Right to left"</item>
+        <item>"Top to bottom"</item>
+    </string-array>
+
+    <string name="activity_image_manage_imageno">Image No：</string>
+    <string name="activity_image_manage_btnprint">Print Image</string>
+    <string name="activity_image_manage_btndownload">Download Image</string>
+    <string name="activity_image_manage_btndeleteone">Delete Image</string>
+    <string name="activity_image_manage_btndeleteall">Delete All Image</string>
+    <string name="activity_image_manage_btnrefresh">Refresh</string>
+    <string name="activity_image_manage_txtSpace">Total size:NK,Free size:MK</string>
+    <string name="activity_image_manage_txtCounter">Image count:N</string>
+    <string name="activity_image_manage_delete_one">Sure delete this image?</string>
+    <string name="activity_image_manage_delete_all">Sure delete all image?</string>
+    <string name="activity_image_manage_print_image_error">Print image error.</string>
+    <string name="activity_image_manage_define_NV_image_success">Download NV image success.</string>
+    <string name="activity_image_manage_define_NV_image_error">Download NV image error.</string>
+    <string name="activity_image_manage_download_first">Please download NV image first.</string>
+
+    <string name="activity_downloadnv_image">Image Path:</string>
+    <string name="activity_downloadnv_btnselectimage">Select Image...</string>
+    <string name="activity_downloadnv_download">Download</string>
+    <string name="activity_downloadnv_imagesize">Image Size:</string>
+    <string name="activity_downloadnv_freesize">Free Size:</string>
+    <string name="activity_downloadnv_totalsize">Total Size:</string>
+    <string name="activity_auto_text_mag">SetMag:</string>
+    <string name="activity_auto_text_page_height">Page Width Height:</string>
+    <string name="activity_auto_text">Auto Text Print</string>
+
+    <string name="activity_main_type">Type:</string>
+    <string name="activity_main_shake">Shake</string>
+    <string name="activity_main_bw">Black-White</string>
+    <string name="activity_main_gather">Gather</string>
+    <string name="activity_main_light">Light</string>
+    <string name="activity_main_light_message">Brightness range must be -100 to 100</string>
+    <string name="activity_main_original">original</string>
+    <string name="activity_image_lzo">Compression:</string>
+    <string name="activity_subcontract">Subcontract</string>
+    <string name="activity_integrated">Integrated</string>
+    <string name="activity_main_package">package（>0）</string>
+
+    <!-- 保存到共享数据的值：0，1，2，3，4，5，6 -->
+    <string-array name="feeds_list">
+        <item>"0mm"</item>
+        <item>"5mm"</item>
+        <item>"10mm"</item>
+        <item>"15mm"</item>
+        <item>"20mm"</item>
+        <item>"25mm"</item>
+        <item>"30mm"</item>
+    </string-array>
+
+    <!-- 保存到共享数据的值：0，1，2 -->
+    <string-array name="cut_paper_list">
+        <item>"None"</item>
+        <item>"Before print cut paper"</item>
+        <item>"After print cut paper"</item>
+    </string-array>
+
+    <!-- 保存到共享数据的值：0，1，2 -->
+    <string-array name="open_cashdrawer_list">
+        <item>"None"</item>
+        <item>"Before print open cashdrawer"</item>
+        <item>"After print open cashdrawer"</item>
+    </string-array>
+
+    <!-- 保存到共享数据的值：0，1，2 -->
+    <string-array name="buzzer_list">
+        <item>"None"</item>
+        <item>"Before print beeping"</item>
+        <item>"After print beeping"</item>
+    </string-array>
+
+    <string-array name="codepage">
+        <item>"Chinese Simplified"</item>
+        <item>ISO8859-1</item>
+        <item>ISO8859-2</item>
+        <item>ISO8859-3</item>
+        <item>ISO8859-4</item>
+        <item>ISO8859-5</item>
+        <item>ISO8859-6</item>
+        <item>ISO8859-8</item>
+        <item>ISO8859-9</item>
+        <item>ISO8859-15</item>
+        <item>WPC1253</item>
+        <item>KU42</item>
+        <item>TIS18</item>
+        <item>Khemr</item>
+    </string-array>
+
+    <string name="sdk_type">all</string>
+    <string name="activity_font_print">Font Print</string>
+    <string name="activity_electricity">Electricity</string>
+    <string name="activity_bluetooth_name">Set bluetooth name</string>
+    <string name="activity_input_name">Please enter the Bluetooth name</string>
+    <string name="send_fail">send fail</string>
+    <string name="activity_esc_function_print_self">Print Self</string>
+    <string name="activity_double_color_print">Double Color Print</string>
+    <string name="activity_voltage">Voltage</string>
+    <string name="activity_printer_version">Printer Version</string>
+    <string-array name="printer_list_all">
+        <item>"TP801"</item>
+        <item>"TP805"</item>
+        <item>"TP806"</item>
+        <item>"HTP80A"</item>
+        <item>"HTP80B"</item>
+        <item>"HTP80C"</item>
+        <item>"PPTII-A"</item>
+        <item>"HTP58A"</item>
+        <item>"PPTII-B"</item>
+        <item>"HTP58B"</item>
+        <item>"PPT2-UR"</item>
+        <item>"PPTD3"</item>
+        <item>"MPT-II"</item>
+        <item>"MPT-III"</item>
+        <item>"HMP80A"</item>
+        <item>"MPS3"</item>
+        <item>"MPD2"</item>
+        <item>"MPT-E2"</item>
+        <item>"MLP2"</item>
+        <item>"MPT8"</item>
+        <item>"LPQ58"</item>
+        <item>"LPQ80"</item>
+        <item>"LP106A"</item>
+        <item>"LP106B"</item>
+        <item>"PT541"</item>
+        <item>"PT562"</item>
+        <item>"PT721"</item>
+        <item>"POS80A"</item>
+        <item>"POS80B"</item>
+        <item>"POS80C"</item>
+        <item>"POS58A"</item>
+        <item>"POS58B"</item>
+        <item>"M-1"</item>
+        <item>"M-2"</item>
+        <item>"M-3"</item>
+        <item>"M-4"</item>
+        <item>"M-5"</item>
+        <item>"M-6"</item>
+        <item>"M-8"</item>
+        <item>"L-2"</item>
+        <item>"L-3"</item>
+        <item>"DT-210"</item>
+        <item>"DT-230"</item>
+        <item>"SMP-R381"</item>
+        <item>"SMP-R385"</item>
+        <item>"SMP-R386"</item>
+        <item>"SM-L200"</item>
+        <item>"MPRINT LP58"</item>
+        <item>"MPRINT LP80"</item>
+        <item>"MPRINT G58"</item>
+        <item>"MPRINT G80"</item>
+        <item>"TM-58"</item>
+        <item>"TM-80"</item>
+        <item>"TM-90"</item>
+        <item>"DP-24"</item>
+        <item>"DP-34"</item>
+        <item>"SGPR-300"</item>
+    </string-array>
+    <string-array name="printer_list_hprt">
+        <item>"TP801"</item>
+        <item>"TP805"</item>
+        <item>"TP806"</item>
+        <item>"HTP80A"</item>
+        <item>"HTP80B"</item>
+        <item>"HTP80C"</item>
+        <item>"PPTII-A"</item>
+        <item>"HTP58A"</item>
+        <item>"PPTII-B"</item>
+        <item>"HTP58B"</item>
+        <item>"PPT2-UR"</item>
+        <item>"PPTD3"</item>
+        <item>"MPT-II"</item>
+        <item>"MPT-III"</item>
+        <item>"HMP80A"</item>
+        <item>"MPS3"</item>
+        <item>"MPD2"</item>
+        <item>"MPT-E2"</item>
+        <item>"MLP2"</item>
+        <item>"MPT8"</item>
+        <item>"LPQ58"</item>
+        <item>"LPQ80"</item>
+        <item>"LP106A"</item>
+        <item>"LP106B"</item>
+        <item>"PT541"</item>
+        <item>"PT562"</item>
+        <item>"PT721"</item>
+    </string-array>
+    <string-array name="printer_list_mkt">
+        <item>"POS80A"</item>
+        <item>"POS80B"</item>
+        <item>"POS80C"</item>
+        <item>"POS58A"</item>
+        <item>"POS58B"</item>
+        <item>"M-1"</item>
+        <item>"M-2"</item>
+        <item>"M-3"</item>
+        <item>"M-4"</item>
+        <item>"M-5"</item>
+        <item>"M-6"</item>
+        <item>"M-8"</item>
+        <item>"L-2"</item>
+        <item>"L-3"</item>
+    </string-array>
+    <string-array name="printer_list_mprint">
+        <item>"MPRINT LP58"</item>
+        <item>"MPRINT LP80"</item>
+        <item>"MPRINT G58"</item>
+        <item>"MPRINT G80"</item>
+    </string-array>
+    <string-array name="printer_list_sycrown">
+        <item>"SMP-R381"</item>
+        <item>"SMP-R385"</item>
+        <item>"SMP-R386"</item>
+        <item>"SM-L200"</item>
+    </string-array>
+    <string-array name="printer_list_mgpos">
+        <item>"TM-58"</item>
+        <item>"TM-80"</item>
+        <item>"TM-90"</item>
+    </string-array>
+    <string-array name="printer_list_ds">
+        <item>"DT-210"</item>
+        <item>"DT-230"</item>
+    </string-array>
+    <string-array name="printer_list_cst">
+        <item>"DP-24"</item>
+        <item>"DP-34"</item>
+    </string-array>
+    <string-array name="printer_list_other">
+        <item>"SGPR-300"</item>
+    </string-array>
+    <string-array name="printer_list_tspl">
+        <item>"LPQ58"</item>
+        <item>"LPQ80"</item>
+        <item>"LPQ118"</item>
+        <item>"LPG4"</item>
+        <item>"106B"</item>
+        <item>"108B"</item>
+        <item>"R42"</item>
+    </string-array>
+    <string-array name="printer_list_cpcl">
+        <item>"MA31"</item>
+    </string-array>
+</resources>

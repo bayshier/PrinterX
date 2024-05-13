@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+       
+    <Button android:id="@+id/btnFullCut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:onClick="onClickFullCut"
+        android:visibility="gone"
+        android:text="@string/activity_cut_fullcut"/>
+    	    
+    <Button android:id="@+id/btnPartialCut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:onClick="onClickPartialCut"        
+        android:text="@string/activity_cut_partialcut"/>
+    
+    <Button android:id="@+id/btnFullCutWithFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFullCutWithFeed"
+        android:visibility="gone"
+        android:text="@string/activity_cut_fullcutwithfeed"/>
+    	    
+    <Button android:id="@+id/btnPartialCutWithFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickPartialCutWithFeed"
+        android:text="@string/activity_cut_partialcutwithfeed"/>
+    
+</LinearLayout>

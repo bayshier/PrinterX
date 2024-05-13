@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:contentInsetStart="0dp"
+        app:titleTextColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:enabled="true"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="@string/app_name"
+                android:textColor="#FFF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#40CCCCCC"
+                android:divider="@drawable/divider_dp1_grayf5"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:showDividers="middle"
+                android:weightSum="3">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#20333333">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:id="@+id/prepareContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="@drawable/divider_dp1_grayf5"
+                            android:orientation="vertical"
+                            android:showDividers="middle|end" />
+                    </androidx.core.widget.NestedScrollView>
+
+                    <Button
+                        android:id="@+id/clear"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginRight="84dp"
+                        android:text="清空" />
+
+                    <Button
+                        android:id="@+id/send"
+                        android:layout_width="72dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginRight="8dp"
+                        android:text="发送" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#10333333">
+
+                        <LinearLayout
+                            android:id="@+id/sendContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="@drawable/divider_dp1_grayf5"
+                            android:orientation="vertical"
+                            android:showDividers="middle|end" />
+                    </androidx.core.widget.NestedScrollView>
+
+                    <Button
+                        android:id="@+id/sendClear"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginRight="12dp"
+                        android:text="清空" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#05333333">
+
+                        <LinearLayout
+                            android:id="@+id/respContent"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:divider="@drawable/divider_dp1_grayf5"
+                            android:orientation="vertical"
+                            android:showDividers="middle|end" />
+                    </androidx.core.widget.NestedScrollView>
+
+                    <Button
+                        android:id="@+id/respClear"
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginRight="12dp"
+                        android:text="清空" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start"
+                android:background="#806200EE">
+
+                <LinearLayout
+                    android:id="@+id/drawer_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/divider_transparent_f5"
+                    android:orientation="vertical"
+                    android:paddingBottom="120dp"
+                    android:showDividers="middle">
+
+                </LinearLayout>
+
+            </androidx.core.widget.NestedScrollView>
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+        <FrameLayout
+            android:id="@+id/mask"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#40000000"
+            android:visibility="gone">
+
+            <RelativeLayout
+                android:layout_width="240dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="40dp"
+                android:background="@color/white">
+
+                <EditText
+                    android:id="@+id/input"
+                    android:imeOptions="actionDone"
+                    android:layout_width="match_parent"
+                    android:layout_height="62dp"
+                    android:gravity="center_vertical"
+                    android:hint="输入参数,多个参数逗号相隔"
+                    android:singleLine="true"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:textColor="#333333"
+                    android:maxLength="30"
+                    android:textSize="14sp" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="62dp"
+                    android:background="#F5F5F5" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="62dp"
+                    android:background="#F5F5F5" />
+
+                <TextView
+                    android:id="@+id/input_cancel"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="取消" />
+
+                <TextView
+                    android:id="@+id/input_enter"
+                    android:layout_width="120dp"
+                    android:layout_height="48dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="?attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="确定" />
+
+            </RelativeLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>
+

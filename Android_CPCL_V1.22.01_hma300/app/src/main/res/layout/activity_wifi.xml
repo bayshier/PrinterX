@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		>
+    <LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dip"
+		android:orientation="horizontal">
+	    <TextView android:id="@+id/lblIPAddress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/activity_wifi_lblipaddress"
+	        android:textSize="20.0dip"/>	    
+		<EditText
+	        android:id="@+id/txtIPAddress"
+	        android:layout_width="fill_parent"	       
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000"
+	        android:textSize="20sp"
+	        android:maxLines="1"        
+	        android:text="@string/activity_wifi_ip"
+	        android:textStyle="bold" />
+	</LinearLayout>
+    
+	<LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+	    <TextView android:id="@+id/lblPort"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/activity_wifi_lblport"
+	        android:digits="0123456789."
+	        android:textSize="20.0dip"/>	    
+		<EditText
+	        android:id="@+id/txtWifiPort"
+	        android:layout_width="fill_parent"	       
+	        android:layout_height="wrap_content"
+	        android:textColor="#000000"
+	        android:textSize="20sp"
+	        android:maxLines="1"        
+	        android:text="@string/activity_wifi_port"
+	        android:digits="0123456789"
+	        android:textStyle="bold" />
+	</LinearLayout>
+    
+	<LinearLayout 
+        android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		
+	    <Button android:id="@+id/btnconnect"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickConnect"
+	        android:text="@string/activity_wifi_btnconnect"/>	
+	            
+	    <Button android:id="@+id/btncancel"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1.0"
+	        android:onClick="onClickCancel"
+	        android:text="@string/activity_wifi_btncancel"/>
+    </LinearLayout>
+    
+	<TextView
+        android:id="@+id/txtTips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3.0dip"
+        android:text="@string/activity_main_tips"	        
+        android:textSize="20.0dip" />
+	</LinearLayout>
+	<ProgressBar
+		android:id="@+id/pro_bar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:visibility="gone"
+		/>
+</RelativeLayout>

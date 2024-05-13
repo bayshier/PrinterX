@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CPCL</string>
+    <string name="app_title">CPCL V1.05.01Test01</string>
+    <string name="action_settings">Settings</string>
+            
+    <string name="logo_show_time">1500</string>
+    
+    <string name="activity_test_page">SELF_TEST</string>
+    <string name="activity_test_line">横线</string>
+    <string name="activity_test_box">矩形</string>
+    
+    <string name="activity_Statues_ready">就绪</string>
+    <string name="activity_Statues_nopage">缺纸</string>
+    <string name="activity_Statues_open">开盖</string>
+    <string name="activity_Statues_error">错误</string>
+    
+    
+    
+    <string name="activity_global_warning">警告</string>
+    <string name="activity_global_yes">是</string>
+    <string name="activity_global_no">否</string>
+    <string name="activity_global_print">打印</string>    
+    <string name="activity_global_align">对齐方式:</string>
+    <string name="activity_global_left_align">左对齐</string>
+    <string name="activity_global_center_align">居中</string>
+    <string name="activity_global_right_align">右对齐</string>
+    <string name="activity_global_cmd_send">指令已发送</string>
+    
+    <string name="activity_main_printer">打印机:</string>
+    <string name="activity_main_bt">蓝牙设备</string>
+    <string name="activity_main_wifi">WIFI设备</string>
+    <string name="activity_main_usb">USB设备</string>
+    <string name="activity_main_setting">参数设置</string>
+    <string name="activity_main_print_test_page">打印测试页</string>
+    <string name="activity_main_tips">请连接打印机！</string>
+    <string name="activity_main_scan_error">扫描失败！</string>    
+    <string name="activity_main_scan_success">扫描成功！</string>
+    <string name="activity_main_connecterr">连接失败！</string>
+    <string name="activity_main_connected">连接成功！</string>
+    <string name="activity_main_connect_usb_printer">请连接USB打印机。</string>
+    <string name="activity_main_close">断开</string>
+    <string name="activity_main_originalsize">原大小:</string>
+    <string name="activity_main_minifront">小字体:</string>
+    <string name="activity_main_heightsize">倍高:</string>
+    <string name="activity_main_widthsize">倍宽:</string>
+    <string name="activity_main_heightwidthsize">倍高倍宽:</string>
+    <string name="activity_main_bold">加粗:</string>
+    <string name="activity_main_underline">下划线:</string>
+    <string name="activity_main_data_error">获取失败</string>
+
+    <string-array name="activity_main_sample_2inch_receipt">
+        <item>"销售单"</item>
+        <item>"日期：2013-08-20"</item>
+        <item>"仓库：二楼A仓库"</item>
+        <item>"经手人：小张"</item>
+        <item>"--------------------------------"</item>
+        <item>"名称                      金额"</item>
+        <item>"--------------------------------"</item>
+        <item>"MP-II                    777.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"MP-III                   888.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"LP58                     999.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"合计金额                 2664.00"</item>
+        <item>"--------------------------------"</item>
+        <item>"操作员：管理员"</item>
+        <item>"时间：2013-08-20 09:30:50"</item>
+    </string-array>
+
+    <string name="activity_esc_function_btngetprinterstatus">获取打印机状态</string>
+    <string name="activity_esc_function_btnopencashdrawer">纸张类型</string>
+    <string name="activity_esc_function_print_type">产品类型</string>
+    <string name="activity_esc_function_btnsamplereceipt">打印收据</string>
+    <string name="activity_esc_function_btn1dbarcodes">一维条码</string>
+    <string name="activity_esc_function_btnqrcode">二维码</string>
+    <string name="activity_esc_function_btnpdf417">PDF417</string>
+    <string name="activity_esc_function_btncut">切纸</string>
+    <string name="activity_esc_function_btntextformatting">文本格式</string>
+    <string name="activity_esc_function_btnprintimagefile">打印图片</string>
+    <string name="activity_esc_function_btnprintprnfile">打印机升级</string>
+    <string name="activity_esc_function_btnpagemode">页模式</string>
+    <string name="activity_esc_function_btnexpress">快递面单</string>
+    <string name="activity_esc_function_btnimagemanage">水印</string>
+    <string name="activity_esc_function_btngetremainingpower">打印机SN</string>
+    <string name="activity_esc_function_btnReverseFeedNLine">回退</string>
+    <string-array name="activity_main_papertype">
+        <item >连续纸</item>
+        <item >标签纸</item>
+        <item >3寸左上黑标</item>
+        <item >3寸左下黑标</item>
+        <item >右上黑标</item>
+        <item >右下黑标</item>
+        <item >中上黑标</item>
+        <item >中下黑标</item>
+        <item >2寸左上黑标</item>
+        <item >2寸左下黑标</item>
+    </string-array>
+    <string-array name="activity_main_papertype_4inch">
+        <item >连续纸</item>
+        <item >标签纸</item>
+        <item >2寸黑标</item>
+        <item >3寸黑标</item>
+        <item >4寸黑标</item>
+    </string-array>
+    <string-array name="activity_main_paper_size">
+        <item>3寸</item>
+        <item>4寸</item>
+    </string-array>
+    <string-array name="activity_main_express">
+        <item >申通快递</item>
+        <item >中通快递</item>
+        <item >天天快递</item>
+    </string-array>
+
+    <string name="activity_devicelist_title_paired_devices">已配对设备</string>
+    <string name="activity_devicelist_title_other_devices">其它设备</string>
+    <string name="activity_devicelist_button_scan">扫描蓝牙</string>
+    <string name="activity_devicelist_none_paired">未配对设备</string>
+    <string name="activity_devicelist_scanning">扫描中......</string>
+    <string name="activity_devicelist_select_device">设备列表</string>
+    <string name="activity_devicelist_connect">连接</string>
+    <string name="activity_devicelist_get_device_err">获取设备失败:</string>
+    <string name="activity_devicelist_bond_error">配对失败!Please bond bluetooth printer in settings panel first.</string>
+        
+    <string name="activity_wifi_lblipaddress">IP地址:</string>
+    <string name="activity_wifi_lblport">端口:</string>
+    <string name="activity_wifi_btnconnect">连接</string>
+    <string name="activity_wifi_btncancel">取消</string>
+    <string name="activity_wifi_ip">192.168.0.33</string>
+    <string name="activity_wifi_port">9100</string>
+    <string name="activity_wifi_noIP">请输入IP地址！</string>
+    
+    <string name="activity_setting_codepage">代码页设置:</string>
+    <string name="activity_setting_cut">切纸设置:</string>
+    <string name="activity_setting_cashdrawer">钱箱设置:</string>
+    <string name="activity_setting_buzzer">蜂鸣器设置:</string>
+    <string name="activity_setting_feed">打印后走纸:</string>
+    
+    <string name="activity_status_btnrefresh">刷新</string>
+    <string name="activity_status_error">获取打印机状态出错。</string>
+    <string name="activity_status_transmit_status_no_paper">缺纸。</string>
+    <string name="activity_status_transmit_status_has_paper">有纸。</string>
+    <string name="activity_status_real_time_status_paper_near_end">纸将尽。</string>
+    <string name="activity_status_real_time_status_paper_adquate">纸充足。</string>
+    <string name="activity_status_real_time_status_cover_is_open">上盖打开。</string>
+    <string name="activity_status_real_time_status_pressed_feed_button">走纸键被按下。</string>
+    <string name="activity_status_real_time_status_stopped_no_paper">因为纸尽停止打印。</string>
+    <string name="activity_status_real_time_status_has_error">打印机出错。</string>
+    <string name="activity_status_real_time_status_cutter_error">切刀错误。</string>
+    <string name="activity_status_real_time_status_unrecoverable_error">有不可恢复错误。</string>
+    <string name="activity_status_real_time_status_auto_recoverable_error">有自动恢复错误。</string>
+    
+    <string name="activity_1dbarcodes_btnhelp">Help</string>
+    <string name="activity_1dbarcodes_type">条码类型:</string>    
+    <string name="activity_1dbarcodes_data">条码数据:</string>    
+     <string name="activity_1dbarcodes_start_cd">起始坐标:</string>    
+    <string name="activity_1dbarcodes_readable">是否可读:</string>    
+    <string name="activity_1dbarcodes_rotation">方向:</string>    
+    <string name="activity_1dbarcodes_narrow">窄(Dots):</string>    
+    <string name="activity_1dbarcodes_height">条码高度:</string>
+    <string name="activity_1dbarcodes_width">宽(Dots):</string>
+    <string name="activity_1dbarcodes_no_data">请输入数据！</string>
+    <string name="activity_1dbarcodes_data_error">输入条码格式错误！</string>    
+    <string name="activity_1dbarcodes_UPC_A">075678164125</string>
+    <string name="activity_1dbarcodes_UPC_E">01227000009</string>
+    <string name="activity_1dbarcodes_JAN13">6901028075831</string>
+    <string name="activity_1dbarcodes_JAN8">04210009</string>
+    <string name="activity_1dbarcodes_ITF">123456789012</string>
+    <string name="activity_1dbarcodes_CODABAR">A40156B</string>
+    <string name="activity_1dbarcodes_CODE93">TEST93</string>
+    <string name="activity_1dbarcodes_CODE39">123456789</string>
+    <string name="activity_1dbarcodes_CODE128">{BS/N:{C\014\042\070\116A</string>
+    <string name="activity_1dbarcodes_HELP">Code128可以打印数字和字母\nUPC-A只能打印数字，位数11至12\nUPC-E码: 条码内容为“01220000899”，打印并扫描到“128992”\nEAN只能打印数字，位数12至13\nCode39和Code93只能打印数字\nCodabar要以A、B、C和D开始及结束，中间只能是5个数字</string>
+    <string name="activity_1dbarcodes_sure">确定</string>
+    <string-array name="activity_1dbarcodes_barcode_type">		
+		<item>"Code128"</item>
+		<item>"UPC-A"</item>
+		<item>"UPC-E"</item>
+		<item>"EAN"</item>
+		<item>"Code39"</item>
+		<item>"Code93"</item>
+		<item>"Codabar"</item>
+    </string-array>
+    <!-- 保存到共享数据的值：0，1，2，3 -->
+    <string-array name="activity_1dbarcodes_hri_position">        						
+		<item>"可读的"</item>
+		<item>"不可读"</item>
+    </string-array>
+    <string-array name="activity_1dbarcodes_hri_rotation">        						
+		<item>"0"</item>
+		<item>"90"</item>
+    </string-array>
+     <string-array name="activity_1dbarcodes_rotation">        						
+		<item>"水平"</item>
+		<item>"垂直"</item>
+    </string-array>
+    <string-array name="activity_1dbarcodes_width">		
+		<item>"1"</item>
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+    </string-array>
+    <string name="activity_pdf417_dataColumns">列数:</string>
+    <string name="activity_pdf417_dataRows">行数:</string>
+    <string name="activity_pdf417_moduleWidth">模块宽度:</string>
+    <string name="activity_pdf417_rowHeight">行高:</string>
+    <string name="activity_pdf417_errorMode">纠错:</string>
+    <string name="activity_pdf417_errorLevel">纠错等级:</string>
+    <string name="activity_pdf417_hierarchicalMode">等级模式:</string>
+    <string name="activity_pdf417_RatioMode">比率模式:</string>  
+    <string name="activity_pdf417_options">选择可选项:</string>
+    <string name="activity_pdf417_standardMode">标准模式:</string>
+    <string name="activity_pdf417_compressionMode">压缩模式:</string>
+    <string name="activity_pdf417_no_data">请输入pdf417数据！</string>
+    <string name="activity_pdf417_no_dataColumns">请输入列数！</string>
+    <string name="activity_pdf417_no_dataRows">请输入行数！</string>
+    
+    <string name="activity_qrcode_data">数据:</string>
+    <string name="activity_qrcode_size">尺寸:</string>
+    <string name="activity_qrcode_model">二维码类型:</string>
+    <string name="activity_qrcode_level">容错等级:</string>
+    <string name="activity_qrcode_no_data">请输入二维码数据！</string>
+    
+    <string name="activity_cut_fullcut">全切纸</string>
+    <string name="activity_cut_partialcut">半切纸</string>
+    <string name="activity_cut_fullcutwithfeed">走纸并全切</string>
+    <string name="activity_cut_partialcutwithfeed">走纸并半切</string>
+    
+    <string name="activity_text_format_chkdoublewidth">倍宽</string>
+    <string name="activity_text_format_chkdoubleheight">倍高</string>
+    <string name="activity_text_format_chkunderline">下划线</string>
+    <string name="activity_text_format_chkbold">加粗</string>
+    <string name="activity_text_format_chkminifont">小字体</string>
+    <string name="activity_text_format_chkturnwhite">反白</string>
+    <string name="activity_text_format_heighmultiple">倍高</string>
+    <string name="activity_text_format_widthmultiple">倍宽</string>
+    <string name="activity_text_format_leftmargin">左边距(Max 255):</string>
+    <string name="activity_text_format_sampletext">Send this sample text to printer.</string>
+    <string name="activity_text_format_font">字体:</string>
+    <string name="activity_text_format_x_multiplication">字体大小 :</string>
+    <string name="activity_text_format_y_multiplication">y轴增幅 :</string>
+    <string name="activity_text_format_papeheight">标签长度 :</string>
+     <string name="activity_text_format_unit">单位:mm</string>
+     <string name="activity_text_format_no_pape">请输入正确的标签长度</string>
+     <string name="activity_text_format_font_setmag">字体放大倍数</string>
+    <string name="activity_text_format_background">背景黑度</string>
+    <string name="activity_auto_text_mag">放大:</string>
+    <string name="activity_auto_text_page_height">页面宽高：</string>
+    <string name="activity_auto_text">文本自动换行打印</string>
+
+    <string-array name="activity_text_format_multiple">	
+        <item>"1"</item>	
+		<item>"2"</item>
+		<item>"3"</item>
+		<item>"4"</item>
+		<item>"5"</item>
+		<item>"6"</item>
+		<item>"7"</item>
+		<item>"8"</item>
+    </string-array>
+    
+    <string name="activity_cashdrawer_open1">打开1号钱箱</string>
+    <string name="activity_cashdrawer_open2">打开2号钱箱</string>
+    <string name="activity_cashdrawer_open12">打开1号和2号钱箱</string>
+    
+    <string name="activity_image_photo">拍照</string>
+    <string name="activity_image_gallery">图库</string>
+    
+    <string name="activity_page_mode_left_margin">左边距(0≤n≤*)</string>
+    <string name="activity_page_mode_top_margin">上边距(0≤n≤*)</string>
+    <string name="activity_page_mode_width">宽度(1≤n≤*)</string>
+    <string name="activity_page_mode_height">高度(1≤n≤*)</string>
+    <string name="activity_page_mode_hposition">横坐标</string>
+    <string name="activity_page_mode_vposition">纵坐标</string>
+    <string name="activity_page_mode_print_direction">打印方向</string>
+    <string name="activity_page_mode_invalid_parameter">无效的参数！</string>
+    <string-array name="activity_page_mode_print_direction_list">	
+        <item>"自左向右"</item>	
+		<item>"自下向上"</item>
+		<item>"自右向左"</item>
+		<item>"自上向下"</item>		
+    </string-array>
+    
+    <string name="activity_image_manage_imageno">图片序号：</string>
+    <string name="activity_image_manage_btnprint">打印图片</string>
+    <string name="activity_image_manage_btndownload">图片下载</string>
+    <string name="activity_image_manage_btndeleteone">删除图片</string>
+    <string name="activity_image_manage_btndeleteall">删除所有图片</string>
+    <string name="activity_image_manage_btnrefresh">刷新</string>
+    <string name="activity_image_manage_txtSpace">图片空间：NK，剩余：MK</string>
+    <string name="activity_image_manage_txtCounter">已有图片：N</string>
+    <string name="activity_image_manage_delete_one">确定删除选中图片？</string>
+    <string name="activity_image_manage_delete_all">确定删除所有图片？</string>
+    <string name="activity_image_manage_print_image_error">图片打印错误。</string>
+    <string name="activity_image_manage_define_NV_image_success">图片下载成功。</string>
+    <string name="activity_image_manage_define_NV_image_error">图片下载错误。</string>
+    <string name="activity_image_manage_download_first">请先下载图片到打印机。</string>
+    
+    <string name="activity_downloadnv_image">图片路径：</string>
+    <string name="activity_downloadnv_btnselectimage">选择图片...</string>
+    <string name="activity_downloadnv_download">下载</string>
+    <string name="activity_downloadnv_imagesize">图片大小：</string>
+    <string name="activity_downloadnv_freesize">剩余空间：</string>
+    <string name="activity_downloadnv_totalsize">总空间：</string>
+
+
+    <string name="activity_main_type">类型:</string>
+    <string name="activity_main_shake">抖动</string>
+    <string name="activity_main_bw">黑白</string>
+    <string name="activity_main_gather">聚集</string>
+    <string name="activity_main_light">亮度（-100—100）</string>
+    <string name="activity_main_package">分包数（大于0）</string>
+    <string name="activity_main_light_message">亮度范围必须是-100到100</string>
+    <string name="activity_main_original">原图</string>
+    <string name="activity_image_lzo">压缩:</string>
+    <string name="activity_subcontract">分包</string>
+    <string name="activity_integrated">整体</string>
+
+    
+    <!-- 保存到共享数据的值：0，1，2，3，4，5，6 -->
+    <string-array name="feeds_list">        						
+		<item>"0mm"</item>
+		<item>"5mm"</item>
+		<item>"10mm"</item>
+		<item>"15mm"</item>
+		<item>"20mm"</item>
+		<item>"25mm"</item>
+		<item>"30mm"</item>
+    </string-array>
+    
+    <!-- 保存到共享数据的值：0，1，2 -->
+    <string-array name="cut_paper_list">        						
+		<item>"禁止切纸"</item>
+		<item>"打印前切纸"</item>
+		<item>"打印后切纸"</item>
+    </string-array>
+    
+    <!-- 保存到共享数据的值：0，1，2 -->
+    <string-array name="open_cashdrawer_list">        						
+		<item>"禁止钱箱"</item>
+		<item>"打印前开钱箱"</item>
+		<item>"打印后开钱箱"</item>
+    </string-array>
+    
+    <!-- 保存到共享数据的值：0，1，2 -->
+    <string-array name="buzzer_list">        						
+		<item>"禁止蜂鸣器"</item>
+		<item>"打印前蜂鸣器响"</item>
+		<item>"打印后蜂鸣器响"</item>
+    </string-array>
+    
+    <string-array name="codepage">        						
+		<item>"Chinese Simplified"</item>
+        <item>ISO8859-1</item>
+        <item>ISO8859-2</item>
+        <item>ISO8859-3</item>
+        <item>ISO8859-4</item>
+        <item>ISO8859-5</item>
+        <item>ISO8859-6</item>
+        <item>ISO8859-8</item>
+        <item>ISO8859-9</item>
+        <item>ISO8859-15</item>
+        <item>WPC1253</item>
+        <item>KU42</item>
+        <item>TIS18</item>
+        <item>Khemr</item>
+    </string-array>
+    
+    <string name="sdk_type">all</string>
+    <string name="activity_font_print">字库打印文本</string>
+    <string name="activity_electricity">电量</string>
+    <string name="activity_bluetooth_name">修改蓝牙名字</string>
+    <string name="activity_input_name">请输入蓝牙名字</string>
+    <string name="send_fail">发送失败</string>
+    <string name="activity_esc_function_print_self">打印自检页</string>
+    <string name="activity_double_color_print">双色打印</string>
+    <string name="activity_voltage">电压</string>
+    <string name="activity_printer_version">打印机版本号</string>
+    <string-array name="printer_list_all">
+        <item>"TP801"</item>        
+        <item>"TP805"</item>
+        <item>"TP806"</item>
+        <item>"HTP80A"</item>
+        <item>"HTP80B"</item>
+        <item>"HTP80C"</item>        
+        <item>"PPTII-A"</item>
+        <item>"HTP58A"</item>
+        <item>"PPTII-B"</item>		
+		<item>"HTP58B"</item>
+        <item>"PPT2-UR"</item>
+		<item>"PPTD3"</item>
+		<item>"MPT-II"</item>		
+		<item>"MPT-III"</item>		
+		<item>"HMP80A"</item>
+		<item>"MPS3"</item>		
+		<item>"MPD2"</item>		
+		<item>"MPT-E2"</item>
+		<item>"MLP2"</item>		
+		<item>"MPT8"</item>
+		<item>"LPQ58"</item>
+		<item>"LPQ80"</item>		
+		<item>"LP106A"</item>
+		<item>"LP106B"</item>
+		<item>"PT541"</item>
+		<item>"PT562"</item>
+		<item>"PT721"</item>		
+        <item>"POS80A"</item>
+        <item>"POS80B"</item>
+        <item>"POS80C"</item>
+        <item>"POS58A"</item>
+        <item>"POS58B"</item>
+        <item>"M-1"</item>
+        <item>"M-2"</item>
+        <item>"M-3"</item>
+        <item>"M-4"</item>
+        <item>"M-5"</item>
+        <item>"M-6"</item>
+        <item>"M-8"</item>
+        <item>"L-2"</item>
+		<item>"L-3"</item>        
+        <item>"DT-210"</item>
+        <item>"DT-230"</item>
+		<item>"SMP-R381"</item>	
+		<item>"SMP-R385"</item>
+		<item>"SMP-R386"</item>
+		<item>"SM-L200"</item>		
+		<item>"MPRINT LP58"</item>
+		<item>"MPRINT LP80"</item>
+		<item>"MPRINT G58"</item>		
+		<item>"MPRINT G80"</item>		
+		<item>"TM-58"</item>
+		<item>"TM-80"</item>
+		<item>"TM-90"</item>						
+		<item>"DP-24"</item>
+		<item>"DP-34"</item>	
+		<item>"SGPR-300"</item>					
+    </string-array>
+    <string-array name="printer_list_hprt">
+        <item>"TP801"</item>        
+        <item>"TP805"</item>
+        <item>"TP806"</item>
+        <item>"HTP80A"</item>
+        <item>"HTP80B"</item>
+        <item>"HTP80C"</item>        
+        <item>"PPTII-A"</item>
+        <item>"HTP58A"</item>
+        <item>"PPTII-B"</item>		
+		<item>"HTP58B"</item>
+        <item>"PPT2-UR"</item>
+		<item>"PPTD3"</item>
+		<item>"MPT-II"</item>		
+		<item>"MPT-III"</item>		
+		<item>"HMP80A"</item>
+		<item>"MPS3"</item>		
+		<item>"MPD2"</item>		
+		<item>"MPT-E2"</item>
+		<item>"MLP2"</item>		
+		<item>"MPT8"</item>
+		<item>"LPQ58"</item>
+		<item>"LPQ80"</item>		
+		<item>"LP106A"</item>
+		<item>"LP106B"</item>
+		<item>"PT541"</item>
+		<item>"PT562"</item>
+		<item>"PT721"</item>				
+    </string-array>
+    <string-array name="printer_list_mkt">        
+        <item>"POS80A"</item>
+        <item>"POS80B"</item>
+        <item>"POS80C"</item>
+        <item>"POS58A"</item>
+        <item>"POS58B"</item>
+        <item>"M-1"</item>
+        <item>"M-2"</item>
+        <item>"M-3"</item>
+        <item>"M-4"</item>
+        <item>"M-5"</item>
+        <item>"M-6"</item>
+        <item>"M-8"</item>
+        <item>"L-2"</item>
+		<item>"L-3"</item>        		
+    </string-array>
+    <string-array name="printer_list_mprint">
+		<item>"MPRINT LP58"</item>
+		<item>"MPRINT LP80"</item>
+		<item>"MPRINT G58"</item>		
+		<item>"MPRINT G80"</item>
+    </string-array>
+    <string-array name="printer_list_sycrown">       	
+		<item>"SMP-R381"</item>	
+		<item>"SMP-R385"</item>
+		<item>"SMP-R386"</item>
+		<item>"SM-L200"</item>		
+    </string-array>
+    <string-array name="printer_list_mgpos">        	
+		<item>"TM-58"</item>
+		<item>"TM-80"</item>
+		<item>"TM-90"</item>
+    </string-array>
+    <string-array name="printer_list_ds">      
+        <item>"DT-210"</item>
+        <item>"DT-230"</item>        			
+    </string-array>
+    <string-array name="printer_list_cst">        						
+		<item>"DP-24"</item>
+		<item>"DP-34"</item>
+    </string-array>
+    <string-array name="printer_list_other">        						
+		<item>"SGPR-300"</item>
+    </string-array>    
+    <string-array name="printer_list_tspl">        						
+		<item>"LPQ58"</item>
+		<item>"LPQ80"</item>
+		<item>"LPQ118"</item>
+		<item>"LPG4"</item>
+		<item>"106B"</item>
+		<item>"108B"</item>
+		<item>"R42"</item>
+    </string-array>
+     <string-array name="printer_list_cpcl">        						
+		<item>"A398"</item>
+    </string-array>    
+</resources>

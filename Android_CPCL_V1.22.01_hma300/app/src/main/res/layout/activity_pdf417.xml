@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:orientation="vertical" >
+
+    <LinearLayout 
+	    android:gravity="center_vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">   
+ 
+	    <ScrollView 
+	        android:scrollbarAlwaysDrawVerticalTrack="false"
+	        android:id="@+id/preview_dashboard_v" 
+	        android:background="#ffebebeb" 
+	        android:scrollbars="vertical" 
+	        android:fadingEdge="vertical"    
+	        android:layout_width="0.0dip"    
+	        android:layout_height="fill_parent" 
+	        android:layout_weight="1.0">
+	        	                
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content">
+			
+			    <TextView
+			        android:id="@+id/itemName3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_qrcode_data"
+			        android:textSize="20.0dip" />
+			    <EditText
+			        android:id="@+id/txtpdf417Data"
+			        android:layout_width="fill_parent"        
+			        android:layout_height="80sp"
+			        android:inputType="textMultiLine"
+			        android:background="@drawable/my_edittext"
+			        android:textColor="#000000"
+			        android:textSize="20sp"
+			        android:textStyle="bold" />
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/activity_pdf417_dataColumns" 
+				    android:textSize="20.0dip"
+				    />
+				<EditText
+			        android:id="@+id/txtpdf417dataColumns"
+			        android:layout_width="match_parent"        
+			        android:layout_height="wrap_content"
+			        android:background="@drawable/my_edittext"
+			        android:textColor="#000000"
+			        android:textSize="20sp"
+			        android:hint="0 ≤ n ≤ 30"
+			        android:textStyle="bold"
+			        android:inputType="number"
+			         />
+				
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/activity_pdf417_dataRows" 
+				    android:textSize="20.0dip"
+				    />
+				<EditText
+			        android:id="@+id/txtpdf417dataRows"
+			        android:layout_width="match_parent"        
+			        android:layout_height="wrap_content"
+			        android:background="@drawable/my_edittext"
+			        android:textColor="#000000"
+			        android:textSize="20sp"
+			        android:hint="3 ≤ n ≤ 90"
+			        android:textStyle="bold"
+			        android:inputType="number"
+			         />
+				<LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal">
+				<LinearLayout 
+				    android:layout_width="50dp"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:layout_weight="1">
+				<TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_pdf417_moduleWidth"
+			        android:textSize="20.0dip" />
+			    <Spinner
+			        android:id="@+id/spnpdf417moduleWidth"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20.0dip" />
+			    </LinearLayout>
+			    
+				<LinearLayout 
+				    android:layout_width="50dp"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical"
+				    android:layout_weight="1">
+				<TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_pdf417_rowHeight"
+			        android:textSize="20.0dip" />
+			    <Spinner
+			        android:id="@+id/spnpdf417rowHeight"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20.0dip" />
+			    </LinearLayout>
+			    
+			    </LinearLayout>
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_pdf417_errorMode"
+			        android:textSize="20.0dip" />
+			    <RadioGroup
+			        android:id="@+id/rg_pdf417_errorMode"
+			        android:orientation="horizontal"
+			        android:layout_width="fill_parent"        
+			        android:layout_height="wrap_content" >
+			
+			        <RadioButton
+			            android:id="@+id/rb_pdf417_hierarchicalMode"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"            
+			            android:checked="true"
+			            android:layout_weight="1.0"
+			            android:textSize="20.0dip"
+			            android:text="@string/activity_pdf417_hierarchicalMode" />
+			
+			        <RadioButton
+			            android:id="@+id/rb_pdf417_RatioMode"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1.0"
+			            android:textSize="20.0dip"
+			            android:text="@string/activity_pdf417_RatioMode" />
+			    </RadioGroup>
+				<LinearLayout 
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="horizontal">
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_pdf417_errorLevel"
+			        android:textSize="20.0dip" />
+			    <Spinner
+			        android:id="@+id/spn_pdf417_errorLevel"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20.0dip" />
+				</LinearLayout>
+			    <!-- <TextView
+			        android:id="@+id/itemName3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_qrcode_model"
+			        android:textSize="20.0dip" />
+			    <Spinner
+			        android:id="@+id/spnQRCodeModel"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20.0dip" /> -->
+			
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/activity_pdf417_options"
+			        android:textSize="20.0dip" />
+				<RadioGroup
+			        android:id="@+id/rg_pdf417_options"
+			        android:orientation="horizontal"
+			        android:layout_width="fill_parent"        
+			        android:layout_height="wrap_content" >
+			
+			        <RadioButton
+			            android:id="@+id/rb_pdf417_standardMode"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"            
+			            android:checked="true"
+			            android:layout_weight="1.0"
+			            android:textSize="20.0dip"
+			            android:text="@string/activity_pdf417_standardMode" />
+			
+			        <RadioButton
+			            android:id="@+id/rb_pdf417_compressionMode"
+			            android:layout_width="fill_parent"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1.0"
+			            android:textSize="20.0dip"
+			            android:text="@string/activity_pdf417_compressionMode" />
+			    </RadioGroup>
+			    <Button
+			        android:id="@+id/btnPrint"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:onClick="onClickPrint"
+			        android:text="@string/activity_global_print" />       
+		    </LinearLayout>
+	    </ScrollView>
+	</LinearLayout>
+</LinearLayout>
