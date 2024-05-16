@@ -8,4 +8,4 @@
 
 #### demo内包括 蓝牙搜索 USB 连接 等操作 ** 不保证兼容市面上常见的各品牌，但是可尝试打票，因为大部份打印机指令都相同
 
-![](https://github.com/bayshier/PrinterX/img.gif)
+![](https://github.com/bayshier/PrinterX/blob/main/img.png)
